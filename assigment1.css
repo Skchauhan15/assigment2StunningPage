@@ -22,10 +22,7 @@ height: 55px;
 .page_list ul li{
      padding:0px 30px; 
      font-weight: 700;
-     color: rgba(17, 17, 17, 0.3);
-}
-.page_list ul li:first-child{
-    color: black;
+     color: rgba(17, 17, 17, 0.5);
 }
 .page_list ul li:hover{
      color: black;
@@ -55,6 +52,11 @@ height: 55px;
 }
 .main_section1 h1{
     font-size: 75px;
+}
+.dot{
+    display: inline-block;
+background-color: #5243C0;
+padding: 5px ;
 }
 .main_section1 p{
     font-size: 18px;
@@ -100,7 +102,7 @@ height: 55px;
     background-color: white;
     box-shadow: 0px 0px 15px 15px rgba(231, 231, 231, 0.781);
 }
-.img_bluetick:hover{
+.card:hover .img_bluetick{
 background-image: url(images/tick-blue.png);
 }
 .card h3{
